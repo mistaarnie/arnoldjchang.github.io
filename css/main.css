@@ -1,0 +1,103 @@
+body {background-color: white;}
+
+/********************************
+SPACE SECTION
+********************************/
+
+section#space {
+  background-color: #282a3a;
+  height: 1700px;
+  width: 100%;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  margin-top: 20em;
+  z-index: 0;
+}
+
+section#space p {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#beginning-description {
+  color: white;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30em;
+}
+
+.sun { 
+  margin: 5em auto;  
+  width:200px;
+  height:200px;
+  border-radius:50%;	
+  background: #FFE548;
+  opacity:0.9;			
+  box-shadow: 0px 0px 40px 15px #FFE548;  
+}
+
+.earth{	
+  position: relative;
+  margin: 0 auto;
+  height: 80px;
+  width: 80px;
+}
+
+
+
+
+/********************************
+SKY SECTION
+********************************/
+
+section#sky {
+  background-color: #96daf6;
+  height: 1100px;
+  width: 100%;
+  position: relative;
+}
+
+/********************************
+LAND SECTION
+********************************/
+
+#land {
+  background-color: #96daf6;
+  height: 1500px;
+  width: 100%;
+  position: absolute;
+  top: 1600px;
+}
+
+#cloud1 {
+  position: absolute;
+  top: 150px;
+  left: 80px;
+}
+
+#cloud2 {
+  position: absolute;
+  top: 500px;
+  right: 80px;
+}
+
+#cloud3 {
+  position: absolute;
+  top: 800px;
+  right: 180px;
+}
+
+#cloud4 {
+  position: absolute;
+  top: 700px;
+  left: 40px;
+}
+
+
+
+
