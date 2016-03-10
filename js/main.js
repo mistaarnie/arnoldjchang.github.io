@@ -1,32 +1,3 @@
-TweenMax.from("#beginning-description, .sun", 2, {opacity:0, y:200});
-
-$(window).scroll(function () {
-    var scrollTop = $(window).scrollTop();
-    var height = $(window).height();
-    $('.header').css({
-        'opacity': ((height - scrollTop) / height)
-    });
-});
-
-var controller = new ScrollMagic.Controller();
-
-// Scene Handler
-var scene = new ScrollMagic.Scene({
-  triggerElement: "#container-description", // point of execution
-  duration: $(window).height() - 100, // pin element for the window height - 1
-  triggerHook: 0, // don't trigger until #pinned-trigger1 hits the top of the viewport
-  reverse: true // allows the effect to trigger when scrolled in the reverse direction
-})
-.setPin("#beginning-description"); // the element we want to pin
-
-controller.addScene([
-  scene,
-  scene2
-]);
-
-
-
-
 // 1, Title of website with space+stars background
 // 2, Scroll down which fades to creation of Light & Day
    // 2.1, Creation of the Sun
@@ -68,3 +39,45 @@ controller.addScene([
 // 13, We can have eternal life now because of Jesus
 
 // 14, Call to Action - Are you interested? 
+
+
+
+(function($) {
+  
+  var wh = window.innerHeight,
+      $header = $('.header'),
+      $innerS1 = $('.innerS1');
+      
+  // init 
+  var ctrl = new ScrollMagic.Controller({
+      globalSceneOptions: {
+        triggerHook: 'onLeave'
+      }
+  });
+  
+  $('section').each(function() {
+    
+    new ScrollMagic.Scene({
+      triggerElement: this,
+      duraton: '50%'
+    })
+    .setPin(this)
+    .addTo(ctrl);
+  })
+  
+})(jQuery);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

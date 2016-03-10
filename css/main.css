@@ -1,4 +1,4 @@
-body {background-color: white;}
+body {background-color: white; height: 100%;}
 
 /********************************
 SPACE SECTION
@@ -6,14 +6,17 @@ SPACE SECTION
 
 section#space {
   background-color: #282a3a;
-  height: 1700px;
+  position: relative;
+  height: 100em;
   width: 100%;
 }
 
 .header {
   color: white;
   text-align: center;
-  margin-top: 20em;
+  position: absolute;
+  top: 20%;
+  left: 50%;
   z-index: 0;
 }
 
@@ -57,7 +60,7 @@ SKY SECTION
 
 section#sky {
   background-color: #96daf6;
-  height: 1100px;
+  height: 100%;
   width: 100%;
   position: relative;
 }
