@@ -1,83 +1,80 @@
-// 1, Title of website with space+stars background
-// 2, Scroll down which fades to creation of Light & Day
-   // 2.1, Creation of the Sun
-   // 2.2, Creation of Earth
-//(Make flat earth)
-// 3, Show the sun rising on earth
-//http://codepen.io/mkmueller/pen/oblrD
-//http://codepen.io/tcmulder/pen/mKhJi
-
-// 4, Creation of plants
-// 5, Creation of living things
-   // 5.1, Animals
-   // 5.2, Humans
-
-// 6, Adam & Eve
-   // 6.1, Eve being tempted by Satan
-   // 6.2, Adam & Eve eating from the tree
-   // 6.3, God separating humans (We are born into sin, as sinners)
-
-// 7, After a while, humans continued to sin, so God sent down Jesus
-   // 7.1, Birth of Jesus
-   // 7.2, Mary was a virgin
-
-// 8, As Jesus became older, he began preaching the truth, got his disciples.
-
-// 9, Performed Miracles
-   // 9.1, Multiplied the food and fed the hungry
-   // 9.2, Cast out demons
-   // 9.3, Healed the sick / Raised Lazarus from the dead
-
-// 10, Jesus was persecuted 
-
-// 11, Jesus was put on trial
-
-// 12, Jesus was crucified
-   // 12.1, Jesus died for our sins so that we can be able to get into heaven
-   // 12.2, God sent his son to die for us because he loves us
-
-// 13, We can have eternal life now because of Jesus
-
-// 14, Call to Action - Are you interested? 
-
-
-
-(function($) {
+$(document).ready(function() {
   
-  var wh = window.innerHeight,
-      $header = $('.header'),
-      $innerS1 = $('.innerS1');
-      
-  // init 
-  var ctrl = new ScrollMagic.Controller({
-      globalSceneOptions: {
-        triggerHook: 'onLeave'
-      }
+  
+  /**********************************************
+  MENU TOGGLE
+  **********************************************/
+  $(".menu").click(function() {
+    $(this).toggleClass('open');
+    $('.main-container').toggleClass('faded');
   });
   
-  $('section').each(function() {
-    
-    new ScrollMagic.Scene({
-      triggerElement: this,
-      duraton: '50%'
-    })
-    .setPin(this)
-    .addTo(ctrl);
+  $('.menu').click(function() {
+    $('.menu-container').toggleClass('appear');
+  });
+  
+  /**********************************************
+  ADJUST MENU SIZE ON SCROLL
+  **********************************************/  
+  $(function() {
+    $('.header-container').data('size','big');
+  });
+
+$(window).scroll(function(){  
+    if($(document).scrollTop() > 0)
+    {
+        if($('.header-container').data('size') == 'big')
+        {
+          $('.header-container').data('size','small');
+          $('.header-container').stop().animate({
+              height:'60px'},300);
+          $('.logo').stop().animate({width: '30px'},300);
+          $('.logo').css('margin-top', '-4px');
+          $('.logo-text').css('margin-top', '10px');
+          $('.logo-text').css('margin-left', '38px');
+          $('.logo-text-2').css('visibility', 'hidden');
+          $('.menu').css('margin-top', '5px');
+          $('.social').css('margin-top', '-10px');
+          
+        }
+    }
+    else
+    {
+        if($('.header-container').data('size') == 'small')
+        {
+          $('.header-container').data('size','big');
+          $('.header-container').stop().animate({
+              height:'80px'},300);
+          $('.logo').stop().animate({width: '35px'},300);
+          $('.logo').css('margin-top', '1px');
+          $('.logo-text').css('margin-top', '10px');
+          $('.logo-text').css('margin-left', '45px');
+          $('.logo-text-2').css('visibility', 'visible');
+          $('.menu').css('margin-top', '10px');
+          $('.social').css('margin-top', '0px');
+        }  
+    }
+});
+  
+  
+  
+  
+  
+  /**********************************************
+  HOVER OVER MAIN HEADER TO SHOW CHEVRON 
+  **********************************************/
+  $('.main-header').hover(function(){
+        $('.back').fadeIn(300)
+        $('.forward').fadeIn(300)
+    },function(){
+        $('.back').fadeOut(300)
+        $('.forward').fadeOut(300)
   })
   
-})(jQuery);
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+  
+  
+});
 
