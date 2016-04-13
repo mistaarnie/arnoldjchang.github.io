@@ -1,1 +1,0 @@
-# ccmn-global
