@@ -46,6 +46,15 @@ body {
   overflow: hidden;
 }
 
+#garden-text {
+  display: block;
+  position: fixed;
+  top: 10%;
+  right: 4%;
+  text-align: right;
+  width: 400px;
+}
+
 #black-section {
   min-width: 100%;
   height: 2000px;
