@@ -1,6 +1,10 @@
+body {
+  min-height: 1500px;
+}
+
 .main-title {
-  position: absolute;
-  top: 40%;
+  position: relative;
+  top: 15%;
   left: 0;
 }
 
@@ -15,16 +19,58 @@
   font-weight: 900;
   text-transform: uppercase;
   margin-top: -15px;
+  font-size: 52px;
 }
 
 #main-title-3 {
   margin: 0 auto;
   text-align: center;
   margin-top: -10px;
+  width: 430px;
 }
 
-.black {
-  margin-top: 800px;
-  height: 1500px;
-  background-color: #282a3a;
+#green-section {
+  min-width: 100%;
+  height: 2000px;
+  background-color: rgb(230, 245, 176);
+  text-align: center;
+}
+
+.garden {
+  margin-top: 300px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+#black-section {
+  min-width: 100%;
+  height: 2000px;
+  background-color: #2b0037;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/****************************************************
+
+MEDIA QUERIES
+
+****************************************************/
+
+@media (max-width: 768px) {
+  
+  #main-title {font-size: 24px;}
+  #main-title-2 {font-size: 35px;}
+  #main-title-3 {width: 300px;
+  }
+  
 }
