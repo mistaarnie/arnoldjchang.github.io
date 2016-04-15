@@ -34,6 +34,7 @@ body {
   height: 2000px;
   background-color: rgb(230, 245, 176);
   text-align: center;
+  z-index: 1;
 }
 
 .garden {
@@ -44,6 +45,37 @@ body {
   left: 0;
   bottom: 0;
   overflow: hidden;
+  z-index: 3;
+}
+
+#background-trees {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+#adam {
+  display: inline-block;
+  position: absolute;
+  width: 150px;
+  left: 37%;
+  bottom: 16%;
+  overflow: hidden;
+  z-index: 5;
+}
+
+#eve {
+  display: inline-block;
+  position: absolute;
+  width: 150px;
+  left: 27%;
+  bottom: 16%;
+  overflow: hidden;
+  z-index: 5;
 }
 
 #garden-text {
