@@ -1,125 +1,393 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css);
+
 body {
-  min-height: 1500px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.main-title-container {
-  position: absolute;
-  top: 35%;
-  left: 35%;
-}
-
-#main-title {
-  text-align: center;
-  font-family: 'Century Schoolbook', sans-serif; font-style: italic; 
-}
-
-#main-title-2 {
-  text-align: center;
-  font-family: 'Raleway';
-  font-weight: 900;
-  text-transform: uppercase;
-  margin-top: -15px;
-  font-size: 52px;
-}
-
-#main-title-3 {
-  margin: 0 auto;
-  text-align: center;
-  margin-top: -10px;
-  width: 430px;
-}
-
-#green-section {
-  min-width: 100%;
-  height: 4500px;
-  background-color: rgb(230, 245, 176);
-  text-align: center;
-  z-index: 1;
-}
-
-.garden {
-  margin-top: 300px;
+.header-container {
   width: 100%;
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  z-index: 3;
-}
-
-#background-trees {
-  display: block;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  overflow: hidden;
-  z-index: 2;
-}
-
-#adam {
-  display: inline-block;
-  position: absolute;
-  width: 150px;
-  left: 37%;
-  bottom: 16%;
-  overflow: hidden;
-  z-index: 5;
-}
-
-#eve {
-  display: inline-block;
-  position: absolute;
-  width: 150px;
-  left: 27%;
-  bottom: 16%;
-  overflow: hidden;
-  z-index: 5;
-}
-
-#satan {
-  display: inline-block;
-  position: absolute;
-  overflow: hidden;
-  width: 200px;
-  z-index: 5;
-}
-
-#garden-text {
-  display: block;
+  height: 80px;
+  padding-top: 20px;
   position: fixed;
-  top: 10%;
-  right: 4%;
-  text-align: right;
-  width: 400px;
+  background-color: white;
+  z-index: 1000;
 }
 
-#black-section {
-  min-width: 100%;
-  height: 2000px;
-  background-color: #2b0037;
+
+.menu ul li {
+  list-style-type: none;
+}
+
+.social {
+  padding-right: 30px;
+  position: absolute;
+  right: .01%;
+}
+
+.social ul {
+  float: right;
+}
+
+.social ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.social ul li i {
+  margin-right: 20px;
+  display: inline-block;
+  margin-top: 6px;
+  color: black;
+}
+
+.donate-button {
+  border: solid 1px #000;
+  padding: 8px 16px;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  float: left;
+  display: inline;
+  margin-right: 30px;
+  margin-top: 3px;
+}
+
+.donate-button:hover {
+  background-color: cadetblue;
+  color: white;
+  border-color: cadetblue;
+  transition: all 0.3s ease 0s;
+}
+
+.social ul li i:hover {
+  color: cadetblue;
+}
+
+
+
+/**************************************************
+MENU
+**************************************************/
+
+.menu-button {
+  width: 40px;
+  height: 10px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 10px;
+  float: left;
+}
+.menu:hover {
+  cursor: pointer;
+}
+.menu.open .menu-item {
+  background: #000;
+}
+.menu.open .menu-item:first-child {
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -moz-transform-origin: 10px 50%;
+  -ms-transform-origin: 10px 50%;
+  -webkit-transform-origin: 10px 50%;
+  transform-origin: 4px 50%;
+}
+.menu.open .menu-item:nth-child(2) {
+  opacity: 0;
+}
+.menu.open .menu-item:nth-child(3) {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -moz-transform-origin: 8px 50%;
+  -ms-transform-origin: 8px 50%;
+  -webkit-transform-origin: 8px 50%;
+  transform-origin: 4px 50%;
+}
+
+.menu-item {
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 0 0 4px;
+  background: #000;
+}
+
+
+.menu-container {
+  width: 230px;
+  margin-left: -300px;
+  height: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
+  padding: 120px 10px;
+  display: inline-block;
+  opacity: 0;
+}
+
+.appear {
+  opacity: 1;
+  transition: all 300ms ease-in-out;
+  transform: translate(300px, 0);
+}
+
+.appear-sub {
+  opacity: 1;
+}
+
+
+.menu-container ul li, .about-container ul li {
+  list-style-type: none;
+  margin-left: 25px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 25px;
+}
+
+.about-container ul li {
+  margin-left: 10px;
+}
+
+.menu-container ul li a {
+  color: black;
+}
+
+.menu-container ul li a:hover {
+  color: cadetblue;
+}
+
+ul .about li a {
+  color: white;
+}
+
+ul .about li a:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.menu-text {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  margin-left: 20px;
+  position: absolute;
+  margin-top: -29px; 
+}
+
+
+.display {
+  visibility: visible;
+}
+
+
+
+/**********************************************************
+LOGO
+**********************************************************/
+
+
+.logo {
+  background-image: url(../images/ccmn-logo-color.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 43%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  display: inline-block;
+  margin-top: 1px;
+}
+
+.logo-text {
+  width: 140px;
+  margin-left: 45px;
+  display: inline-block;
+  color: black;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 14.5px;
+  line-height: 9px;
+  margin-top: 10px;
+}
+
+.logo-text:hover {
+  color: cadetblue;
+}
+
+/***********************************************************
+HERO IMAGE
+***********************************************************/
+
+.main-header {
+  display: inline-block;
+  width: 100%;
+  height: 700px;
+  min-height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  position: relative;
+  margin-top: 80px;
+  z-index: 5;
   text-align: center;
 }
 
+.ccmn-love {
+  padding-top: 150px;
+  width: 200px;
+}
 
+.header-title {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 45px;
+}
 
+.header-button {
+  border: solid 1px #fff;
+  color: white;
+  padding: 12px 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 30px;
+}
 
+.header-button:hover {
+  background-color: cadetblue;
+  color: white;
+  border-color: cadetblue;
+  transition: all 0.3s ease 0s;
+}
 
+.back i {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  left: 2%;
+  top: 45%;
+  opacity: 1;
+}
 
-
+.forward i {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  right: 2%;
+  top: 45%;
+  opacity: 1;
+}
 
 /****************************************************
-
-MEDIA QUERIES
-
+MISSION STATEMENT
 ****************************************************/
+
+.mission-statement {
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 80px 30px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.ion-ios7-heart {
+  color: indianred;
+  font-size: 40px;
+}
+
+.mission-statement h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.mission-statement p {
+  font-size: 15px;
+}
+
+/****************************************************
+NEWS
+****************************************************/
+
+.news {
+  width: 100%;
+  height: 800px;
+  background-color: seashell;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.news h4 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.news-box {
+  display: inline-flex;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  margin-right: 10px;
+  background-color: cadetblue;
+}
+
+
 
 @media (max-width: 768px) {
   
-  #main-title {font-size: 24px;}
-  #main-title-2 {font-size: 35px;}
-  #main-title-3 {width: 300px;
-  }
-  
+  .social {display: none;}
+  .logo {left: 34%;}
+  .header-title {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 23px;
+    margin-bottom: 20px;}
+  .mission-statement {
+    width: 400px;
 }
+}
+
+/******************************************
+FADE MAIN-HEADER WHEN CLICK MENU
+******************************************/
+
+.faded {
+  opacity: 0.3;
+}
+
+
+
+
+
+
+
