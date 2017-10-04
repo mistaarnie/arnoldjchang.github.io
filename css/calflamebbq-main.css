@@ -1,0 +1,2006 @@
+body {
+  font-family: 'futura_bk_btbook', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#map {
+  height: 350px;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'futura_bk_btbold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+a {
+  text-decoration: none;
+  color: #960000;
+}img#flame-icon {
+    width: 45px;
+}
+img#grill-icon {
+    width: 45px;
+}
+h3.part-number {
+    font-family: 'futura_bk_btbook';
+    font-weight: initial;
+        margin-top: 0;
+}
+.panel.calspa-panel.product-panel h2 {
+    font-size: 27px;
+    color: #960000;
+    font-family: 'futura_md_btbold';
+}
+
+.owners-manuals a.btn.btn-link {
+    display: inline;
+    white-space: normal;
+}
+p.panel-titles {
+    /* padding: 0; */
+    margin: 10px 0;
+}
+div#google_translate_element {
+    display: inline-block;
+}
+h1.series-title.calspas-blue.view-all {
+    border-left: none;
+}
+.panel.calspa-panel.viewall-panel {
+    min-height: 430px;
+}
+.u-pack-lineup-wrap {
+  position: absolute;
+  z-index: 3;
+}
+
+.top-border-icon-wrapper {
+    background: transparent url(../img/Cal-Flames-BBQ-Pitch-Fork-and-spatula-Icon.png) no-repeat;
+    height: 66px;
+    margin: 0 auto;
+    width: 120px;
+    position: relative;
+    top: -89px;
+}
+.fake-active-series-home-links {
+      padding: 0;
+    border: 2px solid #D2D2D2;
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.2);
+    transition: all .1s ease-in;
+}
+.well-lg.calflame-well {
+    position: absolute;
+    color: #fff;
+    text-shadow: 1px 2px 3px rgba(0,0,0,.9);
+
+}
+.fake-active {
+  color: #B7B7B7;
+}
+.well.main-img.title-container.upacks {
+  position: absolute;
+  z-index: 3;
+}
+img.icon.jet.blue-jet {
+  background: transparent;
+  vertical-align: middle;
+}
+h3.use-bold.calspas-blue.vids {
+  margin-bottom: 22px;
+  padding-top: 30px;
+}
+p.lead.text-center.calspas-blue {
+  font-size: 17px;
+  padding: 1em 0 2em 0;
+}
+img.img-responsive.u-pack.top {
+  opacity: 0;
+}
+img.p5-hm {
+    padding-top: 60px;
+}
+img#quickbbqpart-logo-header {
+    max-width: 81px;
+}
+p#calspas-hm-text {
+  color: #fff;
+    text-shadow: 3px 1px 3px rgba(3, 3, 3, .7);
+      font-size: 22px;
+  font-weight: bolder;
+}
+span#elegant {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.panel-default > .panel-heading {
+    color: #FFF;
+    background-color: #009DDC;
+    /* border-color: #ddd; */
+}
+.btn-link {
+        color: #960000;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    font-size: 16px;
+    white-space: normal;
+}
+          div#gal-thumbs a {
+
+                opacity: 1;
+            border:1px solid transparent;
+    display: inline-block;
+}
+/*a[href] {
+      color: #009DDC;
+      padding: 0;
+      margin: 0;
+      font-size: 16px;
+}*/
+a.playBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+a[href]:hover {
+  color:#000
+}
+h4.sidebar.use-book {
+    text-transform: none;
+}
+.btn-link:hover, .btn-link:focus {
+    color: #333;
+    text-decoration: none;
+    background-color: transparent;
+}
+.panel-heading a {
+    color: #fff;
+}
+
+.panel-heading a:active, .panel-heading a:hover, .panel-heading a:focus {
+    color: #fff;
+}
+div#upack-line-up-led-con {
+    position: relative;
+          min-height: 308px;
+    padding-top: 30px;
+}
+div#upack-line-up-led-con > a {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 644px;
+}
+#upack-led {
+  position: absolute;
+  opacity: 0;
+}
+#upack-no-led {
+  position: absolute;
+}
+.u-pack-hover-container {
+  position: relative;
+  width: 83%;
+  margin: 0 auto;
+}
+.row.upackrow {
+    min-height: 360px;
+}
+.top {
+  position: absolute;
+}
+.side {
+  position: absolute;
+}
+a.header-a {
+  color: #fff;
+  font-family: 'futura_md_btbold', 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 17px;
+}
+img.img-responsive.u-pack {
+    position: absolute;
+}
+
+img.img-responsive.u-pack.front {
+    position: absolute;
+}
+
+img.img-responsive.u-pack.front.led {
+    position: absolute;
+    opacity: 0;
+}
+/*.panel.calspa-panel.u-pack-panel {
+    text-align: center;
+}*/
+
+h3.calspas-blue.text-center.u-pack-name {
+  font-family: 'futura_bk_btbook', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 26px;
+}
+img.img-responsive.u-pack {
+  /*width: 180px;
+    margin: 0 auto;
+        left: 18%;*/
+}
+/*   ============== U_PACK ICONS ============================ */
+ul.list-unstyled.upack-icon-ls li {
+    margin-bottom: .3em;
+}
+.u-pack-icon {
+    height: 22px;
+    width: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.u-pack-icon.focus {
+  background-image: url(../img/icons/u-pack-Hydro-Pro-Focus.png);
+}
+.u-pack-icon.focus-plus {
+  background-image: url(../img/icons/u-pack-Hydro-Pro-Focus-Plus.png);
+}
+.u-pack-icon.rifled {
+  background-image: url(../img/icons/u-pack-Hydro-Pro-Riflied-Rush.png);
+}
+.u-pack-icon.soothe {
+  background-image: url(../img/icons/u-pack-Hydro-Pro-Soothe.png);
+}
+.u-pack-icon.soothe-plus {
+  background-image: url(../img/icons/u-pack-Hydro-Pro-Soothe-Plus.png);
+}
+.u-pack-icon.impact {
+  background-image: url(../img/icons/u-pack-Hydro-Pro-Impact.png);
+}
+.u-pack-icon.blue-jet {
+  background-image: url(../img/icons/icon-jet-blue.png);
+}
+.u-pack-icon.rain {
+  background-image: url(../img/icons/u-pack-Hydro-Pro-Rain.png);
+}
+.u-pack-icon.sensation {
+  background-image: url(../img/icons/u-pack-Hydro-Pro-Sensation-Plus.png);
+}
+.u-pack-icon.shower {
+  background-image: url(../img/icons/u-pack-Hydro-Pro-Shower.png);
+}
+.u-pack-icon.twist {
+  background-image: url(../img/icons/u-pack-Hydro-Pro-Twist.png);
+}
+.u-pack-icon.twist-2 {
+  background-image: url(../img/icons/u-pack-Hydro-Pro-Twist-Two.png);
+}
+.u-pack-icon.target {
+  background-image: url(../img/icons/u-pack-Hydro-Pro-Target.png);
+}
+
+/*   ============== U_PACK ICONS ============================ */
+
+
+.panel.calspa-panel.calspa-panel-inverse {
+    background: #1b1b1b;
+    color: #fff;
+}
+
+
+/* ================= hero bg images ========================*/
+
+.thumbnail.text-center.maintence-links h3 {
+    font-size: 17px;
+    text-transform: initial;
+}
+section.series-hero-container-bg {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 460px;
+    color: #fff;
+    text-shadow: 3px 3px 3px rgba(0,0,0,.5);
+    padding: 30px 0;
+}
+/*#owners-manuals {
+    background: url(../img/Cal-Spas-Owners-Manuals-mobile.jpg) fixed;
+}
+
+@media only screen and(min-width: 610px) {
+#owners-manuals {
+    background: url(../img/Cal-Spas-Owners-Manuals-tablet.jpg) fixed;
+}
+}
+
+
+@media only screen and(min-width: 1200px) {
+#owners-manuals {
+    background: url(../img/Cal-Spas-Owners-Manuals-mobile.jpg) fixed;
+}
+}*/
+
+
+/* ================= END hero bg images ========================*/
+p.descrip {
+  text-align: left;
+}
+img.img-warranty {
+  max-width: 100px;
+}
+a.carousel-control {
+  font-size: 2em;
+  padding-top: 20%;
+  color: #009DDC;
+}
+i.fa.maintence {
+  color: #009DDC;
+  font-size: 80px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(5, 43, 58, 0.39);
+}
+.col-md-6.series-overview-border-right h2.series-title:hover, .col-md-6.series-overview-border-left h2.series-title:hover {
+  border-color: #0088BF;
+}
+section.owners-manuals li {
+  margin-bottom: 4px;
+}
+section.owners-manuals a {
+  vertical-align: baseline;
+}
+p.lead.use-book {
+  max-width: initial;
+}
+.thumbnail.text-center.maintence-links {
+  padding: 1em 0;
+  /*border: 1px solid transparent;*/
+  transition: all .1s ease-in;
+}
+option.text-muted {
+  color: #009DDC;
+}
+select.error, input.error {
+  border: 1px solid rgba(255, 0, 0, 0.26);
+}
+select.error + label.error, input.error + label.error {
+  color: #FF5656;
+  padding: 3px 0 0 0;
+}
+.thumbnail.text-center.maintence-links:hover, .thumbnail.text-center.maintence-links:active, .thumbnail.text-center.maintence-links:focus {
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0px 0px 10px 0.4px rgba(150, 150, 150, 0.45);
+  -moz-box-shadow: 0px 0px 10px 0.4px rgba(150, 150, 150, 0.45);
+  box-shadow: 0px 0px 10px 0.4px rgba(150, 150, 150, 0.45);
+}
+.carousel-control:hover, .carousel-control:focus {
+  color: #009DDC;
+}
+.carousel-inner.videos-inner {
+  width: 95%;
+  margin: 0 auto;
+}
+a.left.carousel-control.videos-left {
+  left: -14px;
+  background-image: none;
+}
+a.right.carousel-control.videos-right {
+  right: -14px;
+  background-image: none;
+}
+.standard-page-main-img-container h2 {
+  font-size: 20px;
+}
+.standard-page-main-img-container 9 {
+  font-size: 16px;
+}
+img.img-responsive.hero-img {
+  width: 100%;
+}
+a:hover, a:active, a:focus {
+  color: #0088BF;
+  text-decoration: none;
+}
+.press-release-row {
+  max-width: 900px;
+  margin: 0 auto;
+}
+img.series-hero-img.product-img.visible-xs {
+  height: 100%;
+}
+.navbar-default .navbar-toggle .icon-bar {
+      background-color: #960000;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+  border-color: #fff;
+}
+i.fa.fa-file-pdf-o {
+  color: #009DDC;
+}
+img.series-hero-img.bg-absolute {
+  position: absolute;
+}
+img.img-responsive.spa-top.overivew-img {
+  width: 300px;
+}
+.panel.calspa-panel h2 {
+  font-size: 27px;
+}
+.btn.btn-link.btn-exclu-offers.foy {
+  box-shadow: none;
+  background: transparent;
+  color: #A8BF6D;
+  font-size: 27px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  border: none;
+}
+footer .list-inline > li {
+  padding: 0;
+  margin: 0;
+}
+
+/*  AAT PAGES*/
+
+img.img-responsive.jet-thumb {
+  max-width: 170px;
+  float: none;
+  margin-right: 15px;
+}
+.feet-jets-wrap {
+  position: absolute;
+  max-width: 115px;
+  bottom: 0;
+  text-align: center;
+  right: 0;
+}
+
+/* END AAT PAGES*/
+
+.btn.btn-link.btn-exclu-offers.foy:hover, .btn.btn-link.btn-exclu-offers.foy:active, .btn.btn-link.btn-exclu-offers.foy:focus {
+  box-shadow: none;
+  background: transparent;
+  color: #A8BF6D;
+  font-size: 27px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  border: none;
+}
+.row {
+  margin: 0;
+}
+.row.video-row {
+  margin-bottom: 20px;
+}
+.container {
+  position: relative;
+}
+.middle-nav img {
+  max-width: 90%;
+  display: inline-block;
+}
+.no-border {
+  border: none !important;
+}
+.use-bold {
+  font-family: 'futura_md_btbold', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+.btn-primary {
+  border-radius: 0;
+}
+h2.product-title {
+    margin: 0;
+    font-weight: 700;
+}
+img.img-responsive.calflame-logo.productpage {
+    width: 164px;
+}
+.use-light.part-num {
+  font-weight: bold;
+  color: #1b1b1b;
+}
+.use-book {
+  font-family: 'futura_bk_btbook', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+.calspas-blue {
+    color: #960000 !important;
+}
+.breadcrumb {
+    background-color: #fff;
+
+}
+    div#gal-thumbs a.active {
+      opacity: 1 !important;
+    }
+
+    div#gal-thumbs a img {
+      display: inline-block;
+    }
+
+    .spa-gal-main-img {
+      margin-bottom: 30px;
+    }
+
+    div#gal-thumbs {
+      margin-bottom: 14px;
+    }
+.foy-green {
+  color: #A8BF6D;
+}
+section.full-row {
+  box-shadow: 9px 2px 12px rgba(7, 7, 7, .35);
+}
+.socialapi-container {
+    position: relative;
+    max-height: 418px;
+    overflow: hidden;
+}
+.socialapi-container iframe {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+
+}
+thead {
+  text-transform: uppercase;
+}
+section.single-spa-section h2 {
+  margin: 35px 0;
+}
+.icon {
+  background-color: rgba(0, 157, 220, 0.3);
+  padding: 0.3em;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fdfdfd;
+  display: inline-block;
+}
+img.icon.seats {
+  width: 30px;
+  margin-right: 3px;
+}
+h2.subheading {
+  color: #009DDC;
+  font-size: 26px;
+}
+h2.series-title.calspas-blue {
+  display: inline-block;
+}
+.panel.calspa-panel a>img {
+  position: relative;
+}
+img.icon.jet {
+  padding: .3em;
+  width: 32px;
+  /*border-radius: 50%;*/
+}
+.icon.low-opass {
+  opacity: .3 !important;
+}
+.form-group.footer-input {
+  max-width: 245px;
+}
+section.videos-section.reviews {
+  color: #fff;
+}
+.no-border {
+  border: none !important;
+}
+.well.main-img.text-container.hm-page {
+  background: transparent;
+  color: #009DDC;
+  box-shadow: none;
+}
+a.print-page {
+  font-family: 'futura_bk_btbook', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.inline-el {
+  display: inline;
+}
+.top-nav {
+    background-color: #960000;
+}
+i.fa {
+  color: #fff;
+  font-size: 1.3em;
+}
+ul.list-inline.social-icons.top-bar.text-right > li {
+    /* border-left: 1px solid #fff; */
+    /* text-transform: uppercase; */
+    padding: .5em .6em;
+}
+ul.list-inline.social-icons.top-bar.text-right {
+  margin-bottom: 0;
+}
+a.dealer-login {
+  color: #fff;
+  font-family: 'futura_md_btbold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.middle-nav a img {}
+nav.navbar.navbar-default {
+  margin-bottom: 0;
+  box-shadow: 9px 2px 12px rgba(7, 7, 7, .05);
+  /* border-top: 0; */
+  border-bottom: 0;
+}
+.navbar-default {
+  font-family: 'futura_md_btbold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+h3.social-media-h {
+      background: #960000;
+  color: #ffffff;
+  padding: .4em;
+}
+section.categories {
+    padding: 30px 0;
+    /*background: #131313;*/
+}
+section {
+  margin:0;
+}
+section p.lead {
+  /*max-width: 822px;*/
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+section.videos-section {
+    background: #313131 url(../img/Cal-Flame-BBQ-V-Shape-Grill-pat-1.png);
+    padding: 60px 0;
+    box-shadow: 9px 2px 12px rgba(7, 7, 7, .35);
+        border-bottom: 40px solid #1b1b1b;
+            border-top: 40px solid #1b1b1b;
+            position: relative;
+}
+.white-bar {
+    background: #d8d8d8;
+    background: -moz-linear-gradient(top, #d8d8d8 0%, #efefef 18%, #f4f4f4 31%, #ffffff 76%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #d8d8d8 0%,#efefef 18%,#f4f4f4 31%,#ffffff 76%,#ffffff 100%);
+    background: linear-gradient(to bottom, #d8d8d8 0%,#efefef 18%,#f4f4f4 31%,#ffffff 76%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8d8d8', endColorstr='#ffffff',GradientType=0 );
+    position: absolute;
+    height: 134px;
+    width: 100%;
+    bottom: 0;
+}
+section.videos-section:before {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#db0000+0,960000+100 */
+background: #960000; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #db0000 0%, #960000 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #db0000 0%,#960000 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #db0000 0%,#960000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0000', endColorstr='#960000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+i.fa.soical-icon.footer {
+  padding: .1em;
+}
+.panel.calspa-panel.series-panels> h3 {
+    padding: 0 0 18px 0;
+    margin: -10px 0 0 0;
+    text-align: center;
+    padding-left: 11px;
+    color: #960000;
+    font-family: 'futura_bk_btbold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.panel.calspa-panel.series-panels > p {
+  font-size: 22px;
+  position: absolute;
+  bottom: 0;
+  color: red;
+  text-shadow: 1px 1px 3px #000;
+}
+ul.list-inline.social-icons.spa-details-icons a {}
+ul.list-inline.social-icons.spa-details-icons a:hover {
+  color: #fff;
+  background-color: rgba(8, 74, 101, 0.65);
+  border: 1px solid #fdfdfd;
+}
+.social.pull-left {
+  padding: 20px;
+}
+a.left.carousel-control.topselling-left-mobile {
+  background-image: none;
+  color: #009DDC;
+}
+a.right.carousel-control.topselling-right-mobile {
+  background-image: none;
+  color: #009DDC;
+}
+
+/* ==================== catergory page ==================== */
+
+.series-hero-img-container {
+  position: relative;
+}
+img.series-hero-img {
+  width: 100%;
+  padding: 0;
+}
+ul.list-inline.series-images {
+  margin: 0 auto;
+  text-align: center;
+}
+h1.series-title {
+  font-size: 27px;
+  border-bottom: 1px solid #fff;
+  border-left: 6px solid;
+  padding-left: 6px;
+}
+section.cals-spas-diff {
+  text-align: center;
+}
+section.cals-spas-diff {
+  text-align: center;
+}
+section.features-overview {
+  background: rgba(251, 251, 251, 0.84);
+  margin: 0;
+  padding: 0;
+}
+section.spas-in-series {
+  margin: 0;
+  padding: 0;
+}
+.well.main-img.title-container {
+  position: absolute;
+  background-color: transparent;
+  color: #fff;
+  border: transparent;
+  border-radius: 0;
+      text-shadow: 1px 1px 1px rgba(3, 3, 3, .5);
+  padding: 0 1em;
+  margin: 0;
+  top: 2em;
+  z-index: 2;
+}
+.well.main-img.title-container p.lead.use-light {
+    font-size: 19px;
+    font-weight: 900;
+        text-shadow: 1px 1px 1px rgba(3, 3, 3, .5);
+}
+.well.main-img.description-container {
+  border: transparent;
+  background: transparent;
+  box-shadow: none;
+  margin: 2% auto 8% auto;
+  text-align: center;
+}
+.well.main-img.description-container p.lead.use-light {
+  font-size: 16px;
+  padding: 10px;
+  margin: 0;
+}
+.med-img {
+  width: 300px;
+  margin: 10px 0 7px 0;
+}
+
+
+/* ==================== END catergory page ==================== */
+
+
+/* ==================== MAIN SLIDER ================== */
+
+.item {
+  position: relative;
+}
+
+/* ==================== END MAIN SLIDER ================== */
+
+
+/* ===================== Top Selling Slider ===================== */
+
+a.right.carousel-control.topselling-right {
+  background-image: none;
+  color: #009DDC;
+  right: -90px;
+}
+a.left.carousel-control.topselling-left {
+  background-image: none;
+  color: #009DDC;
+  left: -90px;
+}
+
+/* ===================== END Top Selling Slider ===================== */
+
+
+/* ===================== SERIES IMGAGES SECTION ===================== */
+
+.series-img-container {
+  max-width: 1700px;
+  margin: 0 auto;
+  position: relative;
+}
+.panel.calspa-panel.series-panels.pull-left {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+/* ===================== END SERIES IMGAGES SECTION ===================== */
+
+
+/* ===================== SOCIAL MEDIA PANELS ===================== */
+
+a.social-icons-header {
+  position: absolute;
+  right: 29px;
+  top: 19px;
+}
+._2p3a {
+  margin: 0 auto;
+}
+ul.list-inline.social-media-accounts a {
+  font-family: 'futura_md_btbold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #960000;
+}
+ul.list-inline.social-media-accounts a:hover {
+  color: #1b1b1b;
+}
+.topselling .item .panel.calspa-panel h2 {
+  font-size: 26px;
+  margin: 1em 0 0 0;
+}
+
+/* ===================== END SOCIAL MEDIA PANELS ===================== */
+
+
+/* ===================== PANELS ===================== */
+
+.panel.calspa-panel {
+  border-radius: 0;
+  box-shadow: none;
+  padding: .9em;
+  position: relative;
+}
+.panel.calspa-panel.product-panel p {
+    padding: 0;
+}
+
+.videos-section-panel {
+    background: #1b1b1b;
+    color: #fff !important;
+    text-align: center;
+}
+.btn.btn-lg.btn-primary.btn-panel {
+  background-color: transparent;
+  color: #960000;
+  border: 2px solid #960000;
+  transition: all .06s ease-in;
+}
+
+
+.btn.btn-lg.btn-primary.btn-panel:hover, .btn.btn-lg.btn-primary.btn-panel:active, .btn.btn-lg.btn-primary.btn-panel:focus {
+  background-color: #960000;
+  color: #FFF;
+  border: 2px solid #FFF;
+  box-shadow: 0px 0px 0px .5px rgba(3, 3, 3, .07);
+}
+.btn.btn-lg.btn-primary.btn-panel.inverse-btn {
+    background-color: #960000;
+    color: #FFF;
+    border: 2px solid #FFF;
+    box-shadow: 0px 0px 0px .5px rgba(3, 3, 3, .07);
+}
+.btn.btn-lg.btn-primary.btn-panel.inverse-btn:hover, .btn.btn-lg.btn-primary.btn-panel.inverse-btn:active, .btn.btn-lg.btn-primary.btn-panel.inverse-btn:focus {
+  background-color: #FFFFFF;
+  color: #960000;
+  border: 2px solid #960000;
+  box-shadow: 0px 0px 0px .5px rgba(3, 3, 3, .07);
+}
+
+
+
+
+/* ===================== END PANELS  ===================== */
+
+.panel.calspa-panel.series-panels {
+    padding: 0;
+    border: 5px solid #212121;
+}
+
+/* ==================== PRODUCT PAGE ================== */
+
+section.single-spa-section {
+  position: relative;
+  margin: 0 0 40px 0;
+}
+img.series-hero-img.product-img {
+  position: absolute;
+}
+.well.spa-details {
+    background: transparent;
+    border-radius: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+}
+/*.well.spa-details {
+      background: transparent;
+  background: rgba(255, 255, 255, .9);
+  border-radius: 0;
+  border: none;
+}*/
+
+.single-product-img-con.thumbnail {
+  background: transparent;
+  border: transparent;
+}
+.well.spa-details a {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+img.icon {
+  width: 20px;
+}
+a.icon.adult {
+  cursor: default;
+  margin: 0;
+}
+ul.list-inline.social-icons.spa-details-icons a {
+  /*background: #ACACB3; */
+  background-color: rgba(0, 157, 220, 0.3);
+  display: inline-block;
+  border: none;
+  padding: .4em;
+  color: #fff;
+  margin-bottom: 5px;
+  text-align: center;
+  border: 1px solid #fdfdfd;
+}
+.single-product-img-con.thumbnail {
+    display: block;
+    padding: 0;
+    margin-bottom: 20px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    border-radius: 0;
+    border: none;
+}
+.btn.btn-lg.btn-primary.btn-panel.product-page {
+  font-size: 14px;
+  margin-right: 15px;
+  padding: 10px;
+}
+.thumb-links li {
+  padding: 0 .5em 0 0;
+  margin: 0;
+}
+ul.list-inline.thumb-links {
+  margin: 7px 0;
+  padding: 0;
+}
+img.img-responsive.center-block.product-img-main {
+  width: 100%;
+}
+a.fullscreen-icon.hidden-xs {
+  position: absolute;
+  top: 12px;
+  right: 28px;
+  padding: 5px 7px;
+  z-index: 2;
+  background: #fff;
+  border-radius: 0;
+}
+a.fullscreen-icon.hidden-xs:hover {}
+ul.list-inline.social-icons.spa-details-icons a.print-page {
+  background: transparent;
+  color: #009DDC;
+  width: 100%;
+  font-family: 'futura_md_btbold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+img.thumbs-nails {
+  border: 3px solid transparent;
+  transition: .3s all ease-in;
+}
+img.thumbs-nails:hover, img.thumbs-nails:active, img.thumbs-nails:focus {
+  border: 3px solid #337AB7;
+  cursor: pointer;
+}
+img.single-spa-section-bg {
+  position: absolute;
+  width: 100%;
+}
+button.btn.btn-link.btn-calspas {
+  border: 2px solid rgba(0, 157, 220, 0.75);
+  color: #fff;
+  font-family: 'futura_md_btbold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  background-color: #009DDC;
+  border-radius: 0;
+}
+section.tabs {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+  background-color: #fff;
+  position: relative;
+}
+ul.nav-tabs.nav-justified.spa-info-tabs li a {
+  text-transform: uppercase;
+  color: #1b1b1b;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  font-family: 'futura_bk_btbook', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 23px;
+}
+ul.nav-tabs.nav-justified.spa-info-tabs {
+  margin: 0 auto 1em auto;
+    border-bottom: 1px solid #960000;
+    border-top: 1px solid #960000;
+}
+ul.nav-tabs.nav-justified.spa-info-tabs li.active a {
+    color: #fff;
+    background: #960000;
+        border: none;
+}
+
+/*div#product-info-tabs {
+  max-width: 900px;
+  margin: 0 auto;
+}*/
+
+
+/* ==================== END PRODUCT PAGE ================== */
+
+
+/* ==================== Standard Page ================== */
+
+.standard-page-main-img-container {
+  position: relative;
+}
+.well.main-img.text-container {
+  position: absolute;
+  background-color: rgba(0, 157, 220, 0.61);
+  color: #fff;
+  border: transparent;
+  border-radius: 0;
+  top: 1em;
+}
+
+/* ==================== END Standard Page ================== */
+
+
+/* ==================== Fountain of Youth ================== */
+
+section.fountain-of-youth {
+  padding-top: 0;
+  margin-top: 0;
+}
+section.videos-section.foy {
+  background: transparent;
+  box-shadow: none;
+}
+button.btn.btn-link.btn-exclu-offers.foy {
+  float: left;
+  background: #A8BF6D;
+}
+button.btn.btn-link.btn-exclu-offers.foy:hover {
+  background: #fff;
+  border-color: #A8BF6D;
+  color: #A8BF6D;
+}
+.well-lg.calflame-well.catergory-pg h1 {
+    margin: 0 0 1em 0;
+}
+/* ==================== END Fountain of Youth ================== */
+
+
+section#awards-section-hm {
+background: url('../img/Cal-Flame-BBQ-man-with-bbq-cart.jpg') no-repeat center center fixed;
+    color: #fff;
+    background-size: 196% 100%;
+    text-shadow: 1px 3px 3px rgba(3, 3, 3, .9);
+    margin: 0;
+    padding: 13em 0;
+}
+
+#awards-section-hm h3 {
+    font-size: 37px;
+}
+
+#awards-section-hm p.lead {
+    font-size: 27px;
+}
+
+/* ==================== FOOTER ================== */
+
+footer#footer {
+    background: #1b1b1b;
+    padding: 70px 0;
+    box-shadow: 9px 2px 12px rgba(7, 7, 7, .35);
+}
+.col-xs-6.col-md-3.col-lg-3.footer-panel {
+  min-height: 300px;
+}
+footer#footer h3 {
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+.btn.btn-link.btn-exclu-offers {
+  background: #009DDC;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'futura_md_btbold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border: 2px solid #fff;
+  box-shadow: 0px 5px 5px 0px rgba(3, 3, 3, .1);
+  text-decoration: none;
+}
+.btn.btn-link.btn-exclu-offers:hover {
+  background: #fff;
+  border: 2px solid #009DDC;
+  color: #009DDC;
+}
+footer#footer ul.list-inline.social-icons > li {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+footer .btn-link {
+    color: #fff;
+    font-size: 16px;
+    padding: 0;
+    margin-bottom: 4px;
+}
+footer a.btn-link:hover, footer a.btn-link:active, footer a.btn-link:focus, footer a.btn-link.fake-active {
+  color: #000000;
+}
+p.copy-text {
+  padding-top: 24px;
+}
+img.img-responsive.footer-img {
+  max-width: 61px;
+  padding: 0;
+}
+
+/* ==================== END FOOTER ================== */
+
+
+/*section.single-spa-section {
+    vertical-align: middle;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}*/
+
+i.fa.fa-user.calspas-blue {
+  color: #009DDC;
+}
+
+/*========================================================================
+=                  Mobile First Bootstrap 3 Media Queries         =
+========================================================================*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {
+  ul.list-inline.social-icons.top-bar.text-left {
+    margin-bottom: 0;
+    display: table-cell;
+    width: 15%;
+    padding: 4px 0;
+    text-align: left;
+}
+ul.list-inline.social-icons.top-bar.text-right {
+    margin-bottom: 0;
+    display: table-cell;
+    width: 71%;
+    padding: 4px 0;
+    text-align: right;
+}
+ul.list-inline.social-icons.top-bar.text-right > li {
+    width: 17%;
+}
+
+
+  a#dLabel {
+    line-height: 34px;
+  }
+  img.img-responsive.factory-floor {
+    float: right;
+    max-width: 131px;
+    margin-top: 200px;
+    padding: 1em;
+  }
+  /*body > header > div.top-nav > div > ul > li:nth-child(6) {
+    border-right: 2px solid #fff;
+  }*/
+  ul.nav.navbar-nav.navbar-right li {
+    text-align: center;
+  }
+  h2.use-light.slides-text {
+    font-size: 24px;
+  }
+  .u-pack-lineup {
+    max-width: 325px;
+  }
+}
+@media only screen and (min-width: 370px) {
+  ul.list-inline.social-icons.top-bar.text-left {
+    width: 15%;
+}
+  .panel.calspa-panel.series-panels.pull-left {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+.top-nav {
+    width: 100%;
+    display: table;
+    bottom: 0;
+    z-index: 4;
+        padding: 5px 0;
+}
+  ul.list-inline.social-icons.top-bar.text-right {
+    margin-bottom: 0;
+    display: table-cell;
+  width: 71%;
+    padding: 4px 0;
+    text-align: right;
+  }
+  ul.list-inline.social-icons.top-bar.text-right > li {
+        width: 17%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+div#upack-line-up-led-con {
+    position: relative;
+        min-height: 444px;
+    padding-top: 30px;
+    margin: 0 auto;
+  }
+  .u-pack-lineup {
+    max-width: 500px;
+  }
+  .row.upackrow {
+    min-height: 420px;
+  }
+  .u-pack-hover-container {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+  }
+  img.img-responsive.jet-thumb {
+    max-width: 170px;
+    float: left;
+    margin-right: 15px;
+  }
+  body > header > div.top-nav > div > ul > li:nth-child(7) {
+    /*border-left: none;*/
+  }
+  .panel.calspa-panel.series-panels.pull-left {
+    width: 50%;
+    text-align: center;
+    padding: 3px;
+  }
+  ul.list-inline.social-icons.top-bar.text-right {
+    text-align: center;
+  }
+}
+@media only screen and (min-width:560px) {
+  .u-pack-hover-container {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+  }
+/*div#upack-line-up-led-con {
+    position: relative;
+    min-height: 600px;
+    padding-top: 30px;
+    margin: 0 auto;
+  }*/
+}
+
+@media only screen and(min-width: 610px) {
+  .u-pack-hover-container {
+    position: relative;
+    width: 37%;
+    margin: 0 auto;
+  }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+    ul.list-inline.social-icons.top-bar.text-right > li {
+              width: initial;
+    }
+            div#gal-thumbs a {
+
+                  opacity: .7 !important;
+
+  }
+
+div#upack-line-up-led-con {
+    text-align: center;
+    margin: 0 auto;
+    margin: 30px 0 0 0;
+}
+  .navbar {
+    position: relative;
+        min-height: 65px;
+  }
+img.img-responsive.center-block.why-cal-spas-img {
+    float: left;
+    padding: 60px 10px;
+    max-width: 337px;
+    display: inline-block;
+}
+  .u-pack-hover-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .panel.calspa-panel.u-pack-panel {
+    min-height: 888px;
+  }
+  img.img-responsive.u-pack {
+    /*left: 25%;*/
+  }
+  h3.calspas-blue.text-center.u-pack-name {
+    font-size: 26px;
+  }
+  img.img-responsive.u-pack {
+    /*left: 34%;*/
+  }
+  .u-pack-lineup-wrap {
+    top: 39%;
+    left: 12%;
+  }
+  img.img-responsive.factory-floor {
+    max-width: 230px;
+  }
+  .aat-air-control-wrap {
+    position: relative;
+    max-width: 100%;
+  }
+  img.img-responsive.jet-thumb {
+    float: none;
+    max-width: 134px;
+  }
+  a.header-a {
+    color: #fff;
+    font-family: 'futura_md_btbold', 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .feet-jets-wrap {
+    position: absolute;
+    max-width: 144px;
+    bottom: 0;
+    text-align: center;
+    right: 0;
+  }
+  section.single-spa-section {
+    margin-bottom: 10px;
+    background: url(http://calspas.com/2016/img/product-page-bg-1-tab.jpg) fixed no-repeat;
+    background-size: cover;
+  }
+  .top-nav {
+    position: relative;
+    display: block;
+    z-index: 1;
+  }
+  ul.list-inline.social-icons.top-bar.text-right {
+    text-align: right;
+  }
+  ul.list-inline.social-icons.top-bar.text-right > li {
+      padding: .5em;
+    display: inline-block;
+    margin: 0 .2em;
+  }
+  .panel.calspa-panel.series-panels.pull-left {
+    width: 33%;
+    padding: 5px;
+    margin: 0;
+  }
+  h1.series-title {
+    font-size: 52px;
+    border-bottom: 2px solid #fff;
+    border-left: 7px solid;
+    padding-left: 10px;
+  }
+  /*.col-xs-6.col-md-3.col-lg-3.footer-panel {
+    max-height: 330px;
+    margin: 20px 0;
+}*/
+ul.list-inline.series-images li {
+    /* max-width: 420px; */
+    padding: 0;
+    margin: 0;
+      max-width: 335px;
+}
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+  ul.list-inline.social-icons.top-bar.text-right > li {
+    margin: 0;
+        padding: 0 .2em;
+}
+  .dropdown:hover .dropdown-menu {
+display: block;
+}
+  .panel.calspa-panel.viewall-panel {
+    min-height: 529px;
+}
+  div#upack {
+    margin: 40px 0;
+}
+  .top-nav a[href]:hover {
+    color: #fff;
+  }
+img.img-responsive.center-block.why-cal-spas-img {
+        padding: 25px 40px;
+    max-width: 415px;
+}
+  .panel.calspa-panel.u-pack-panel {
+    min-height: 875px;
+  }
+  h3.calspas-blue.text-center.u-pack-name {
+    font-size: 29px;
+  }
+  .u-pack-lineup {
+    max-width: 416px;
+  }
+  .u-pack-hover-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  img.img-responsive.u-pack {
+    width: 180px;
+    margin: 0 auto;
+    left: 0;
+  }
+  .u-pack-hover-container {
+    min-height: 350px;
+  }
+  img.img-responsive.u-pack {
+    width: inherit;
+    margin: 0 auto;
+  }
+  .well.main-img.title-container.upacks {
+    width: 597px;
+    top: 10%;
+    right: 23%;
+    left: initial;
+  }
+  .u-pack-lineup-wrap {
+    top: 52%;
+    left: 19%;
+  }
+  .aat-air-control-wrap {
+    position: absolute;
+    max-width: 152px;
+    top: 34%;
+  }
+  .well.main-img.description-container p.lead.use-light {
+    font-size: 21px;
+    padding: 10px;
+    margin: 0;
+  }
+  img.sentence-logo {
+    width: 118px;
+    margin-top: -18px;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  /*.panel.calspa-panel.why-cal-spas {
+    min-height: 516px;
+  }*/
+  .middle-nav img {
+    max-width: 196px;
+  }
+  a#dLabel {
+    line-height: 36px;
+  }
+  div#tab-content {
+    padding-top: 25px;
+  }
+  img.img-responsive.factory-floor {
+    max-width: 300px;
+    margin-top: 0;
+  }
+  ul.nav.navbar-nav.navbar-right li {
+    text-align: left;
+  }
+  h1.series-title {
+        font-size: 34px;
+    border-bottom: 2px solid #fff;
+    border-left: 10px solid;
+    padding-left: 16px;
+
+  }
+  .well.main-img.title-container {
+    padding: 0 50px;
+  }
+  .well.main-img.title-container p.lead.use-light {
+    color: #fff;
+    font-size: 24px;
+  }
+
+  .well.main-img.title-container p.lead.use-light .description {
+    font-size: 20px;
+  }
+  /* ===================== SERIES IMGAGES SECTION ===================== */
+  .panel.calspa-panel.series-panels.pull-left {
+    width: 20%;
+  }
+  .col-md-6.series-overview-border-right {
+    border-right: 2px solid #EAEAEA;
+    margin: 0;
+    min-height: 400px;
+    padding: 40px 1em;
+  }
+  .col-md-6.series-overview-border-left {
+    border-left: 2px solid #EAEAEA;
+    margin: 0;
+    min-height: 400px;
+    padding: 40px 1em;
+  }
+.panel.calspa-panel {
+    padding: 1em;
+    position: relative;
+}
+  /* ===================== END SERIES IMGAGES SECTION ===================== */
+  ul.list-inline.social-icons.spa-details-icons a {
+    margin-bottom: 10px;
+  }
+  .row.upackrow {
+    min-height: 355px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+  .well-lg.calflame-well.catergory-pg {
+    position: absolute;
+    right: 0;
+    max-width: 575px;
+}
+.well-lg.calflame-well {
+    position: absolute;
+    left: 0;
+    max-width: 500px;
+}
+  ul.list-inline.series-images li {
+    /* max-width: 420px; */
+    padding: 0;
+    margin: 0;
+    max-width: 248px;
+}
+  .list li {
+    padding: 0;
+}
+
+.btn.btn-lg.btn-primary.calflamebbq-btn {
+        box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.3);
+    font-size: 13px;
+}
+
+  .thumbnail.text-center.maintence-links h3 {
+    font-size: 17px;
+    text-transform: initial;
+}
+  footer .btn-link {
+    margin: 0;
+}
+  .standard-page-main-img-container {
+    position: relative;
+    max-height: 530px;
+    overflow: hidden;
+}
+.series-hero-img-container {
+    position: relative;
+        max-height: 530px;
+    overflow: hidden;
+}
+  img.img-responsive.center-block.why-cal-spas-img {
+  max-width: 100%;
+    padding: 20px 50px;
+}
+  .row.upackrow {
+    min-height: 370px;
+    margin: 22px 0 12px 0;
+}
+
+  .u-pack-hover-container {
+    position: relative;
+    width: 96%;
+    margin: 0 auto;
+  }
+  .panel.calspa-panel.u-pack-panel {
+    min-height: 632px;
+  }
+  h3.calspas-blue.text-center.u-pack-name {
+    font-size: 39px;
+  }
+  .u-pack-lineup {
+    max-width: 374px;
+  }
+  .well.main-img.title-container.upacks {
+    width: 601px;
+    top: 10%;
+    right: 12%;
+    left: initial;
+  }
+  .u-pack-lineup-wrap {
+    top: 26%;
+    left: 11%;
+  }
+  .well.main-img.description-container {
+    max-width: 82%;
+  }
+  section.owners-manuals h2 {
+    margin-bottom: 18px;
+  }
+  .carousel-inner.videos-inner {
+    width: 90%;
+  }
+  a.right.carousel-control.videos-right {
+    right: -40px;
+    font-size: 3em;
+  }
+  a.left.carousel-control.videos-left {
+    left: -40px;
+    font-size: 3em;
+  }
+  section.single-spa-section {
+    margin-bottom: 70px;
+    background: url(http://calspas.com/2016/img/product-page-bg-1.jpg) fixed;
+    background-size: cover;
+  }
+.well.main-img.title-container {
+      max-width: 61%;
+    left: 10%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+  div#tab-content {
+    padding-top: 50px;
+  }
+  .row.padding-btm {
+    padding-bottom: 30px;
+  }
+  /* HOME PAGE */
+  .well.main-img.text-container.homefull {
+    max-width: 39%;
+    right: 0;
+    text-align: left;
+    padding: 6px 40px;
+  }
+  /* END HOMEpAGE*/
+  /* ======== FOUNTAIN OF YOUTH ======== */
+  .well.main-img.text-container.foy {
+    background: rgba(168, 191, 109, 0.78);
+    max-width: 65%;
+    padding: 3em 1em;
+    margin: 5em 0;
+  }
+  section.skin-therapy {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  section.skin-therapy-2 {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  .skin-therapy-2 .well.main-img.text-container.foy {
+    text-align: right;
+    max-width: 60%;
+    right: 0;
+    background: transparent;
+    color: #1b1b1b;
+    border: none;
+    box-shadow: none;
+  }
+  /* ======== FOUNTAIN OF YOUTH ======== */
+  a#dLabel {
+    left: 205px;
+  }
+  h1.series-title {
+        font-size: 43px;
+    border-bottom: 2px solid #fff;
+    border-left: 10px solid;
+    padding-left: 14px;
+  }
+  /* ==================== END cat
+
+  /* ===================== SLIDE ONE =============== */
+  /* position all*/
+  .carousel-caption.slide1 {
+    top: 52px;
+    left: 120px;
+    text-align: left;
+  }
+  img.slides.img-responsive {
+    width: 100%;
+  }
+  .slide1 h1 {
+    font-size: 71px;
+  }
+  h2.use-light.slides-text {
+    font-size: 29px;
+    top: -14px;
+    color: #009DDC;
+    position: relative;
+  }
+  /* position secondary text group */
+  .model-info {
+    position: relative;
+    top: 69px;
+  }
+  .model-info-right h2 {
+    line-height: 13px;
+    text-align: left;
+  }
+  /* Call to actio Button */
+  .btn.btn-lg.btn-primary.slide1-btn {
+    position: absolute;
+    right: 0;
+    bottom: 133px;
+    padding: 14px 44px;
+    font-size: 27px;
+  }
+  /* ===================== END SLIDE ONE =============== */
+  /* ===================== SLIDE TWO =============== */
+  .slide2 h1 {
+    font-size: 64px;
+    background: rgba(0, 108, 152, 0.52);
+    padding: .2em;
+  }
+  .slide2 h2.use-light.slides-text {
+    background: rgba(0, 108, 152, 0.52);
+    padding: .2em;
+    margin-top: 14px;
+  }
+  /* ===================== END SLIDE TWO =============== */
+  img.img-responsive.footer-img {
+    max-width: 80px;
+    padding: 2px;
+    margin-top: 20px;
+  }
+  .row.single-product-details-row {
+    padding: 30px 0;
+  }
+}
+@media only screen and (min-width: 1300px) {
+div#google_translate_element {
+    display: inline-block;
+    width: 80px;
+}
+  .well.main-img.title-container {
+
+    left: 11%;
+
+}
+  p#calspas-hm-text {
+    color: #fff;
+    text-shadow: 3px 3px 3px rgba(3, 3, 3, .3);
+    font-size: 23px;
+    font-weight: bolder;
+}
+  .panel.calspa-panel.u-pack-panel {
+    min-height: 865px;
+  }
+  ul.list-inline.series-images li {
+      padding: 0;
+    margin: 0;
+    max-width: 255px;
+}
+img.img-responsive.calspas-logo {
+    padding: 0px;
+}
+}
+
+
+@media only screen and (min-width: 1499px) {
+  div#google_translate_element {
+    width: 30px;
+}
+
+
+}
+@media only screen and (min-width: 1800px) {
+  section#awards-section-hm {
+  background: url('../img/Cal-Flame-BBQ-man-with-bbq-cart.jpg') no-repeat center center fixed;
+      color: #fff;
+      background-size: cover;
+      text-shadow: 1px 3px 3px rgba(3, 3, 3, .9);
+      margin: 0;
+      padding: 13em 0;
+  }
+  div#google_translate_element {
+    width: 10px;
+}
+  .series-hero-img-container {
+    position: relative;
+    max-height: 700px;
+    overflow: hidden;
+}
+.standard-page-main-img-container {
+    position: relative;
+    max-height: 700px;
+    overflow: hidden;
+}
+
+  .panel.calspa-panel.u-pack-panel {
+    min-height: 832px;
+  }
+  .well.main-img.title-container.upacks {
+    width: 601px;
+    top: 10%;
+    right: 19%;
+    left: initial;
+  }
+  .u-pack-lineup-wrap {
+    top: 19%;
+    left: 17%;
+  }
+  .u-pack-lineup {
+    max-width: 562px;
+  }
+ul.list-inline.series-images li {
+    max-width: 336px;
+}
+  section.single-spa-section {
+    margin-bottom: 66px;
+  }
+.row.single-product-details-row {
+    padding: 0 0 100px 0;
+}
+  /*.well.spa-details p >span.use-bold {
+    font-size: 18px;
+    color: #FFFFFF;
+  }*/
+  ul.nav-tabs.nav-justified.spa-info-tabs li a {
+    font-size: 30px;
+  }
+  .row.product-details-row {
+    margin: 1em 0;
+  }
+  img.img-responsive.footer-img {
+    max-width: 99px;
+    padding: 1px;
+  }
+}
+
+/* Portrait and Landscape  DEVICE ONLY*/
+
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /*.collapse.in{
+  		display:block !important;
+	}*/
+}
+@media (max-width: 1200px) {
+.navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+}
+/* ====================================  VIDEOS PAGE*/
+
+
+/* overlay at start */
+
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+/* overlay animate in */
+
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+
+/* overlay animate out */
+
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+/* content animate it */
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+
+/* content animate out */
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+.card-grid.video-cards {
+  height: 170px;
+  width: 300px;
+  margin: 20px auto;
+}
+button.mfp-close {
+  color: #960000 !important;
+}
+p.back-text {
+  padding: 20% 0 0 0;
+}
+
+/* ====================================  END VIDEOS PAGE*/
