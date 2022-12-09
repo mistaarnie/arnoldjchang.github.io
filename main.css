@@ -114,6 +114,7 @@ html {
     background-color: #fff;
     max-width: 480px;
     scroll-behavior: smooth;
+    position: sticky;
   }
 
   .tabs::-webkit-scrollbar { 
