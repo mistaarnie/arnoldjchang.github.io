@@ -1,0 +1,233 @@
+
+* {
+    font-family: 'Radikal', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px auto;
+    max-width: 480px;
+    border: 1px solid #ddd;
+    border-radius: 38.5px;
+    padding-top: 20px;
+}
+
+.left, .center, .right {
+    display: inline-grid;
+}
+
+.left {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.right {
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.cart {
+    display: block;
+    margin-left: auto;
+    height: 28px;
+}
+
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+}
+
+a {
+    color: black;
+}
+
+.top-header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px 0 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.header {
+    margin-top: 20px;
+    height: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.back {
+    display: block;
+    margin-left: 20px;
+    float: left;
+}
+
+.deal-summary {
+    display: block;
+    margin-right: 20px;
+    float: right;
+}
+
+.car-image {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  #overview {
+    height: 1000px;
+    background-color: pink;
+  }
+  
+  #pricing {
+    height: 1000px;
+    background-color: yellow;
+  }
+
+  #protection {
+    height: 1000px;
+    background-color: orange;
+  }
+
+  #accessories {
+    height: 1000px;
+    background-color: green;
+  }
+
+  #summary {
+    height: 1000px;
+    background-color: purple;
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    height: 60px;
+    padding: 20px;
+    padding-bottom: 0px;
+    background-color: #fff;
+    max-width: 480px;
+    scroll-behavior: smooth;
+  }
+
+  .tabs::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+  .tabs a {
+    margin-right: 30px;
+    text-decoration: none;
+  }
+
+  .tabs a:hover {
+    text-decoration: underline;
+  }
+
+  .tabs #tab5 {
+    margin-right: 0px;
+  }
+
+
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 2px 19px -6px rgba(97,97,97,1);
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + #overview{
+    padding-top: 140px;
+  }
+
+  #pricing, #accessories, #protection, #summary {
+    padding: 20px;
+    margin-top: -80px;
+    padding-top: 80px;
+}
+
+#overview {
+    padding: 20px;
+}
+
+.footer {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    max-width: 480px;
+    transform: translate(-50%, 0);
+    height: 100px;
+    background-color: #fff;
+    z-index: 1;
+    border: 1px solid #ddd;
+}
+
+.footer .btn-text {
+    display: block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #1979C7;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer a:hover {
+    cursor: pointer;
+}
+
+.price {
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+.price p {
+    color: #707070;
+    margin-bottom: 4px;
+}
+
+.price span {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.cta-btn {
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.primary-underline {
+    position: relative;
+    display: inline-block;
+}
+
+.primary-underline:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    height: 0;
+    border: 2px solid #1979C7;
+    border-radius : 20px;
+  }
