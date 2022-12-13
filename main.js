@@ -15,6 +15,7 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
  
 
 $(document).ready(function() {
@@ -91,5 +92,7 @@ function CTA() {
         document.getElementById('btn1').href = "#accessories";
     } else if (btn1.innerHTML.indexOf("Next: Summary") !== -1) {
         document.getElementById('btn1').href = "#summary";
+    } else if (btn1.innerHTML.indexOf("Add to Cart") !== -1) {
+        cartModal.style.display = "block";
     }
 }

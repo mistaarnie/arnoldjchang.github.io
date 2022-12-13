@@ -20,17 +20,17 @@
         <div class="top-header">
             <div class="left"><img src="img/menu.svg" class="menu"></div>
             <div class="center"><img src="img/tc-logo-black-500-5b9752820428fd08072ac20b14965287.png" class="logo"></div>
-            <div class="right"><img src="img/shopping-cart (6) 1.svg" class="cart"></div>
+            <div class="right"><a href="cart.html"><img src="img/shopping-cart (6) 1.svg" class="cart"></a></div>
         </div>
-        <div class="header">
+        <!--<div class="header">
             <div class="back"><a href="">Back</a></div>
-            <!--<div class="deal-summary"><a href="">Deal Summary</a></div>-->
-        </div>
+            <div class="deal-summary"><a href="">Deal Summary</a></div>
+        </div>-->
         <div class="car">
             <img class="car-image" src="img/car-photo.png" alt="">
         </div>
         <div class="tabs" id="myHeader">
-            <a id="tab1" href="#overview">Overview</a>
+            <a id="tab1" class="primary-underline" href="#overview">Overview</a>
             <a id="tab2" href="#pricing">Pricing</a>
             <a id="tab3" href="#protection">Protection</a>
             <a id="tab4" href="#accessories">Accessories</a>
@@ -38,35 +38,130 @@
         </div>
 
         <section class="overview" id="overview">
-            <h1>Overview</h1>
+            <a id="priceDetailsBtn"><img class="img-content bottom-spacing" src="img/car-details.png" alt=""></a>
+            <hr>
+            <img src="img/vehicle-details.png" alt="" class="img-content top-spacing bottom-spacing">
         </section>
 
         <section class="pricing" id="pricing">
+            <hr class="bottom-spacing">
             <h1>Pricing</h1>
+            <img src="img/pricing.png" alt="" class="img-content bottom-spacing" style="margin-bottom:100px">
         </section>
 
         <section class="protection" id="protection">
-            <h1>Protection</h1>
+            <hr class="bottom-spacing">
+            <h1>Protection Products</h1>
+                <ul>
+                    <li><img src="img/protection-product.png" alt=""></li>
+                    <li><img src="img/protection-product.png" alt=""></li>
+                    <li><img src="img/protection-product.png" alt=""></li>
+                    <li><img src="img/protection-product.png" alt=""></li>
+                </ul>
+            <a id="show">Show All Protection</a>
         </section>
 
         <section class="accessories" id="accessories">
+            <hr class="bottom-spacing">
             <h1>Accessories</h1>
+                <ul>
+                    <li><img src="img/accessories.png" alt=""></li>
+                    <li><img src="img/accessories.png" alt=""></li>
+                    <li><img src="img/accessories.png" alt=""></li>
+                    <li><img src="img/accessories.png" alt=""></li>
+                </ul>
+            <a id="show">Show All Accessories</a>
         </section>
         <section class="summary" id="summary">
-            <h1>Summary</h1>
+            <hr class="bottom-spacing">
+            <h1>Deal Summary</h1>
+            <img src="img/deal-summary-content.png" alt="" class="img-content top-spacing bottom-spacing">
+            <img src="img/delivery.png" alt="" class="img-content">
+            <h4 class="top-spacing">Disclosures</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </section>
 
         <div class="footer">
             <div class="price">
-                <p>Finance for</p>
-                <span>$717.09/mo</span>
+                <a id="dealSummaryBtn"><p>Finance for</p>
+                    <span>$650/mo</span></a>
             </div>
             <div class="cta-btn">
-                <a id="btn1" class="btn-text" onclick="CTA()">Next: Pricing</a>
+                <a id="btn1" class="btn-text" onclick="CTA()" >Next: Pricing</a>
             </div>
             
         </div>
+
+        <!-- Deal Summary -->
+        <div id="dealSummary" class="modal">
+            <!-- content -->
+            <div class="modal-content">
+                <img src="img/deal-summary.png" alt="" class="img-content close">
+            </div>
+        </div>
+
+        <!-- Price Details Sheet -->
+        <div id="priceDetails" class="modal">
+            <!-- content -->
+            <div class="modal-content">
+                <h2 style="text-align: center;">Price Details</h2>
+                <img src="img/price-details.png" alt="" class="img-content close">
+            </div>
+        </div>
+
+        <!-- Add to Cart Modal -->
+        <div id="cartModal" class="cart-modal">
+            <!-- content -->
+            <div class="cart-modal-content">
+                <h2 style="text-align: center;">Added to your cart!</h2>
+                <img src="img/cart-content.png" alt="" class="img-content bottom-spacing" style="width: 80%;margin-top:20px">
+                <a href="checkout1.html" class="btn">Checkout</a>
+                <a href="cart.html" class="btn secondary">View Cart</a>
+            </div>
+        </div>
         
         <script src="main.js" async defer></script>
+        <script>
+            var modal = document.getElementById("dealSummary");
+            var modal2 = document.getElementById("priceDetails");
+            var cartModal = document.getElementById("cartModal");  
+
+            var sheetbtn = document.getElementById("dealSummaryBtn");
+            var sheetbtn2 = document.getElementById("priceDetailsBtn");
+            var cartModalBtn = document.getElementById("cartModalBtn");  
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal 
+            sheetbtn.onclick = function() {
+            modal.style.display = "block";
+            }
+
+            sheetbtn2.onclick = function() {
+            modal2.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+            modal.style.display = "none";
+            modal2.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+            if (event.target == cartModal) {
+                cartModal.style.display = "none";
+            }
+            }
+
+
+        </script>
     </body>
 </html>
