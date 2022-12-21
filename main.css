@@ -1,404 +1,94 @@
 * {
     font-family: 'Radikal', sans-serif;
-    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-@-webkit-keyframes slideIn {
-    from {bottom: -300px; opacity: 0} 
-    to {bottom: 0; opacity: 1}
-  }
-  
-  @keyframes slideIn {
-    from {bottom: -300px; opacity: 0}
-    to {bottom: 0; opacity: 1}
-  }
-  
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fadeIn {
-    from {opacity: 0} 
-    to {opacity: 1}
-  }
-
-
-body {
-    margin: 0px auto;
-    max-width: 480px;
-    box-shadow: 0px 2px 19px -6px rgba(97,97,97,1);
-    padding-top: 20px;
+body, a {
     color: #343434;
 }
 
-.left, .center, .right {
-    display: inline-grid;
+h2 {
+    font-weight: 400;
 }
 
-.left {
-    padding-left: 20px;
-    padding-top: 10px;
-}
-
-.right {
-    padding-right: 20px;
-    padding-top: 5px;
-}
-
-.cart {
-    display: block;
-    margin-left: auto;
-    height: 28px;
-}
-
-
-.logo {
-    display: block;
+.container {
+    max-width: 1120px;
     margin: 0 auto;
-    width: 140px;
-}
-
-a {
-    color: black;
-    cursor: pointer;
-}
-
-.top-header {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    padding: 10px 0 15px 0;
-
 }
 
 .header {
-    margin-top: 20px;
-    height: 40px;
-    border-bottom: 1px solid #E5E5E5;
-}
-
-.back {
-    display: block;
-    margin-left: 20px;
-    float: left;
-}
-
-.deal-summary {
-    display: block;
-    margin-right: 20px;
-    float: right;
-}
-
-.car-image {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-}
-
-html {
-    scroll-behavior: smooth;
-  }
-  
-  /*#pricing {
-    height: 1000px;
-    background-color: yellow;
-  }*/
-
-  #protection {
-    height: 950px;
-    background-color: #FFF;
-  }
-
-  .protection h1, .accessories h1 {
-    margin-bottom: 30px;
-  }
-
-  #accessories {
-    height: 800px;
-    background-color: #FFF;
-  }
-
-  #summary {
-    background-color: #FFF;
-    height: 1400px;
-  }
-
-  .tabs {
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    height: 60px;
-    padding: 20px;
-    padding-bottom: 0px;
-    background-color: #fff;
-    max-width: 480px;
-    scroll-behavior: smooth;
-    position:sticky;
-    border-bottom: 1px solid #E5E5E5;
-  }
+    justify-content: space-between;
 
-  .tabs::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
 }
 
-  .tabs a {
-    margin-right: 30px;
-    text-decoration: none;
-  }
-
-  .tabs a:hover {
-    text-decoration: underline;
-  }
-
-  .tabs #tab5 {
-    margin-right: 0px;
-  }
-
-
-  /* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-shadow: 0px 2px 19px -6px rgba(97,97,97,1);
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + #overview{
-    padding-top: 140px;
-  }
-
-  #pricing, #accessories, #protection, #summary {
-    padding: 20px 30px;
-    margin-top: -20px;
-    padding-top: 20px;
+.top-header {
+    border-bottom: 1px solid #eee;
+    padding: 1.2rem;
 }
 
-#overview {
-    padding: 40px 30px 20px 30px;
-}
-
-.footer {
+.two-col ul {
     display: grid;
-    column-gap: 50px;
-    grid-template-columns: auto auto;
-    position: fixed;
-    left: 50%;
-    bottom: 0;
-    width: 100%;
-    max-width: 480px;
-    transform: translate(-50%, 0);
-    height: 100px;
-    background-color: #fff;
-    z-index: 1;
-    border: 1px solid #ddd;
-}
-
-.footer .btn-text {
-    display: block;
-    float: right;
-    margin-right: 20px;
-    margin-top: 20px;
-    padding-top: 20px;
-    width: 240px;
-    height: 60px;
-    border-radius: 30px;
-    background-color: #1979C7;
-    color: #fff;
-    border: none;
-    font-size: 16px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.footer a:hover {
-    cursor: pointer;
-}
-
-.price {
-    padding-left: 30px;
-    padding-top: 8px;
-}
-
-.price p {
-    color: #707070;
-    margin-bottom: 0;
-    padding-bottom: 4px;
-}
-
-.price a {
-    text-decoration: none;
-}
-
-.price span {
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.cta-btn {
-    margin-left: auto;
-    padding-right: 20px;
-}
-
-.primary-underline {
-    position: relative;
-    display: inline-block;
-}
-
-.primary-underline:before {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    bottom: 0px;
-    height: 0;
-    border: 2px solid #0098d1;
-    border-radius: 5px 5px 0 0;
-  }
-
-  .img-content {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .top-spacing {
-    margin-top: 60px;
-  }
-
-  .bottom-spacing {
-    margin-bottom: 60px;
-  }
-
-hr {
-    border-top: 1px solid #E5E5E5;
-}
-
-.protection ul, .accessories ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 1rem;
     list-style-type: none;
     padding: 0;
 }
 
-.protection img, .accessories img {
+.top-spacing {
+    padding-top: 1rem;
+}
+
+.right {
+    float: right;
+}
+
+.img {
     width: 100%;
 }
 
-.protection a, .accessories a {
-    display: block;
-    text-decoration: underline;
-    cursor: pointer;
-    text-align: center;
-    margin-top: 40px;
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 6.5rem;
 }
 
-h1 {
-    margin-bottom: 2rem;
-}
-
-
-.modal, .cart-modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 50%;
-    top: 0;
-    width: 480px; /* Full width */
-    height: 100%; /* Full height */
-    transform: translate(-50%, 0);
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    -webkit-animation-name: fadeIn; /* Fade in the background */
-    -webkit-animation-duration: 0.4s;
-    animation-name: fadeIn;
-    animation-duration: 0.4s
-  }
-
-  /* Modal Content */
-.modal-content {
-    position: fixed;
-    bottom: 0;
-    background-color: #fefefe;
-    width: 480px;
-    height: 90%;
-    -webkit-animation-name: slideIn;
-    -webkit-animation-duration: 0.4s;
-    animation-name: slideIn;
-    animation-duration: 0.4s;
-    border-radius: 10px 10px 0 0;
-    padding: 40px 20px;
-  }
-
-  .cart-modal-content {
-    width: 400px;
-    padding: 20px;
+nav {
+    display: none;
+    border-bottom: 1px solid #eee;
+    height: 80px;
     background: #fff;
-    margin: 0 auto;
-    margin-top: 30%;
-    border-radius: 8px;
-  }
-  
-  .btn {
-    display: block;
-    margin: 20px auto;
-    padding-top: 20px;
-    width: 300px;
-    height: 60px;
-    border-radius: 30px;
-    background-color: #1979C7;
-    color: #fff;
-    border: none;
-    font-size: 16px;
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .secondary {
-    border: 2px solid #1979C7;
-    color: #1979C7;
-    background-color: #fff;
-  }
-
-  .cart-content {
-    height: 1200px;
-  }
-
-  .full-width {
-    display: block;
-    margin: 20px auto;
-    padding-top: 20px;
+    position: fixed;
+    top: 0;
     width: 100%;
-    height: 60px;
-    border-radius: 30px;
-    background-color: #1979C7;
-    color: #fff;
-    border: none;
-    font-size: 16px;
-    text-decoration: none;
-    text-align: center;
-  }
+    z-index: 1;
+}
 
-  .checkout-footer {
-    grid-template-columns: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+span {
+    display: inline;
+    margin-right: 2rem;
+}
 
-  .checkout {
+.two-col-2 ul {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    list-style-type: none;
     padding: 0;
-    min-height: 1200px;
-  }
+    margin: 0;
+    padding-top: 1.8rem;
+}
 
-  .checkout img {
-    width: 100%;
-  }
+.show {
+    display: block !important;
+}
 
-  .lender {
-    cursor: pointer;
-  }
+.sticky-header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.summary {
+    height: 100vh;
+}
+
